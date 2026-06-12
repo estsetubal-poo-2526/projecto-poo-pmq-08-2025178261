@@ -1,0 +1,144 @@
+/* ═══════════════════════════════════════════════════════
+   Batalha Naval — Folha de Estilos JavaFX
+   ═══════════════════════════════════════════════════════ */
+
+/* Fundo geral da aplicação */
+.menu-root {
+    -fx-background-color: linear-gradient(to bottom, #0a2942, #0d3d5c);
+}
+
+/* ── Títulos ────────────────────────────────────────────── */
+.titulo {
+    -fx-font-size: 42px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #e0f7fa;
+    -fx-font-family: "Arial Black", "Impact", sans-serif;
+    -fx-effect: dropshadow(gaussian, #00bcd4, 12, 0.4, 0, 0);
+}
+
+.subtitulo {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #b3e5fc;
+    -fx-font-family: "Arial", sans-serif;
+}
+
+/* ── Labels ─────────────────────────────────────────────── */
+.label-campo {
+    -fx-text-fill: #b3e5fc;
+    -fx-font-size: 14px;
+}
+
+.label-info {
+    -fx-text-fill: #90caf9;
+    -fx-font-size: 13px;
+}
+
+.label-erro {
+    -fx-text-fill: #ef5350;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+}
+
+.label-grelha {
+    -fx-text-fill: #b3e5fc;
+    -fx-font-size: 13px;
+    -fx-font-weight: bold;
+    -fx-alignment: center;
+}
+
+.label-turno {
+    -fx-text-fill: #ffd600;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+    -fx-alignment: center;
+}
+
+.label-mensagem {
+    -fx-text-fill: #e0f7fa;
+    -fx-font-size: 13px;
+    -fx-alignment: center;
+    -fx-padding: 8 12 8 12;
+    -fx-background-color: rgba(0,0,0,0.25);
+    -fx-background-radius: 8;
+}
+
+/* ── Botões ─────────────────────────────────────────────── */
+.btn-primario {
+    -fx-background-color: #0097a7;
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 10 24 10 24;
+    -fx-background-radius: 8;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(gaussian, rgba(0,0,0,0.4), 6, 0, 0, 2);
+}
+
+.btn-primario:hover {
+    -fx-background-color: #00acc1;
+    -fx-effect: dropshadow(gaussian, #00bcd4, 10, 0.4, 0, 0);
+}
+
+.btn-primario:pressed {
+    -fx-background-color: #006064;
+}
+
+.btn-secundario {
+    -fx-background-color: #37474f;
+    -fx-text-fill: #b3e5fc;
+    -fx-font-size: 13px;
+    -fx-padding: 8 20 8 20;
+    -fx-background-radius: 8;
+    -fx-cursor: hand;
+}
+
+.btn-secundario:hover {
+    -fx-background-color: #546e7a;
+}
+
+.btn-perigo {
+    -fx-background-color: #c62828;
+    -fx-text-fill: white;
+    -fx-font-size: 13px;
+    -fx-padding: 8 20 8 20;
+    -fx-background-radius: 8;
+    -fx-cursor: hand;
+}
+
+.btn-perigo:hover {
+    -fx-background-color: #ef5350;
+}
+
+/* ── Campos de texto ─────────────────────────────────────── */
+.campo-texto {
+    -fx-background-color: #1a3a50;
+    -fx-text-fill: #e0f7fa;
+    -fx-prompt-text-fill: #546e7a;
+    -fx-border-color: #0097a7;
+    -fx-border-radius: 6;
+    -fx-background-radius: 6;
+    -fx-padding: 6 10 6 10;
+    -fx-font-size: 14px;
+}
+
+.campo-texto:focused {
+    -fx-border-color: #00bcd4;
+    -fx-effect: dropshadow(gaussian, #00bcd4, 6, 0.3, 0, 0);
+}
+
+/* ── Radio Buttons ───────────────────────────────────────── */
+.radio-button {
+    -fx-text-fill: #b3e5fc;
+    -fx-font-size: 13px;
+}
+
+.radio-button:selected {
+    -fx-text-fill: #e0f7fa;
+    -fx-font-weight: bold;
+}
+
+/* ── Separador ───────────────────────────────────────────── */
+.separator .line {
+    -fx-border-color: #1e4d6b;
+}
